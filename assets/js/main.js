@@ -9,7 +9,8 @@ const showMenu = (toggleId, navId) =>{
         })
     }
 }
-show menu('nav-toggle','nav-menu')
+showMenu('nav-toggle','nav-menu')
+
 
 /*============== show Alert ====================*/
 let a=document.getElementByClassName('contact__button button')[0];
