@@ -13,7 +13,7 @@ showMenu('nav-toggle','nav-menu')
 
 
 /*============== show Alert ====================*/
-let a=document.getElementByClassName('contact__button button')[0];
+let a=document.getElementsByClassName('contact__button button')[0];
 let nameBox = document.getElementsByClassName('contact__input')[0];
 let emaiBox = document.getElementsByClassName('contact__input')[1];
 let commentBox = document.getElementsByClassName('contact__input')[2];
