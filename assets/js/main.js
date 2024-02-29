@@ -9,7 +9,21 @@ const showMenu = (toggleId, navId) =>{
         })
     }
 }
-showMenu('nav-toggle','nav-menu')
+show menu('nav-toggle','nav-menu')
+
+/*============== show Alert ====================*/
+let nameBox = document.getElementsByClassName('contact__input')[0];
+let emaiBox = document.getElementsByClassName('contact__input')[1];
+let commentBox = document.getElementsByClassName('contact__input')[2];
+if(nameBox.value=''){
+alert("your name is empty");
+}else if(emailBox=''){
+alert("your Email is empty");
+}else if(commentBox=''){
+alert("your comment is empty");
+}else{
+let a=document.getElementByClassName('contact__button button')[0].addEventListener('click',()=>{alert('your query has been submitted');})
+}
 
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll('.nav__link')
