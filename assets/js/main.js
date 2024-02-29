@@ -13,23 +13,9 @@ showMenu('nav-toggle','nav-menu')
 
 
 /*============== show Alert ====================*/
-let a=document.getElementsByClassName('contact__button button')[0];
-let nameBox = document.getElementsByClassName('contact__input')[0];
-let emaiBox = document.getElementsByClassName('contact__input')[1];
-let commentBox = document.getElementsByClassName('contact__input')[2];
-a.addEventListener('click',()=>{
-    event.preventDefault();
-if(nameBox.value=''){
-alert("your name is empty");
-}else if(emailBox=''){
-alert("your Email is empty");
-}else if(commentBox=''){
-alert("your comment is empty");
-}else{
-    console.log(a,nameBox,emailBox,commentBox);
+let a=document.getElementsByClassName('contact__button button')[0].addEventListener('click',()=>{
 alert('your query has been submitted');
-}
- });
+});
 
 
 /*==================== REMOVE MENU MOBILE ====================*/
