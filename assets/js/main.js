@@ -26,6 +26,7 @@ alert("your Email is empty");
 }else if(commentBox=''){
 alert("your comment is empty");
 }else{
+    console.log(a,nameBox,emailBox,commentBox);
 alert('your query has been submitted');
 }
  });
